@@ -1,0 +1,1 @@
+import{h as n,L as t}from"./index-DEk_hmx_.js";async function r(h){const{wallet:a,params:i}=h;return a.getChain()?.id===n(i[0].chainId)||await a.switchChain(t(n(i[0].chainId))),"0x1"}export{r as handleSwitchChain};
